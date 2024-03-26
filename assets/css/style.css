@@ -116,10 +116,10 @@ section {
 section h2 {
   text-align: center;
   color: #333;
-  font-size: 1.4rem;
+  font-size: 32px;
   font-weight: bold;
   background-color: #a3a3a3;
-  padding: 0px 1em;
+  padding: 0px 43px;
   display: inline-block;
   position: relative;
   top: -43px;
@@ -346,7 +346,7 @@ aside div p i .fas,
   right: 14px;
   bottom: 50px;
   font-size: 73px;
-  color: gray;
+  color: #8080807d;
 }
 @media screen and (min-width: 500px) {
   input {
@@ -395,6 +395,14 @@ aside div {
     display: inline-block;
     width: 33.333%;
     margin-inline: -2px;
+  }
+  main {
+    margin-top: 7em;
+  }
+  aside div p i .fas,
+  .fa-tag {
+    bottom: 87px;
+    font-size: 55px;
   }
 }
 aside div p:last-child {
