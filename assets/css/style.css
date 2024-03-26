@@ -346,6 +346,7 @@ aside div p i .fas,
   right: 14px;
   bottom: 50px;
   font-size: 73px;
+  color: gray;
 }
 @media screen and (min-width: 500px) {
   input {
