@@ -358,8 +358,18 @@ aside div p i .fas,
   input {
     padding: 15px;
   }
-  button {
+  .iscrivitiNews {
     padding: 15px 30px;
+  }
+  main {
+    margin-top: 16em;
+  }
+
+  .bottoneCalendario {
+    top: 90px;
+  }
+  .bottoneSocial {
+    top: 16px;
   }
 }
 
