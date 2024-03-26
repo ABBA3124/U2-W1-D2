@@ -242,6 +242,11 @@ iframe {
   iframe {
     height: 267px;
   }
+  aside div p i .fas,
+  .fa-tag {
+    bottom: 75px;
+    font-size: 61px;
+  }
 }
 
 /* TABELLE */
