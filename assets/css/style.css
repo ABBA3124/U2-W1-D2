@@ -309,7 +309,7 @@ button {
   z-index: 9998;
   border-radius: 8px;
   background-color: rgb(255, 255, 255, 0.8);
-  border: 4px solid white;
+  border: 2px solid white;
 }
 .tornaInCima svg {
   fill: violet;
@@ -323,7 +323,7 @@ button {
   z-index: 9998;
   border-radius: 8px;
   background-color: rgb(255, 255, 255, 0.8);
-  border: 4px solid white;
+  border: 2px solid white;
 }
 .bottoneSocial {
   position: fixed;
@@ -334,13 +334,19 @@ button {
   z-index: 9998;
   border-radius: 8px;
   background-color: rgb(255, 255, 255, 0.8);
-  border: 4px solid white;
+  border: 2px solid white;
 }
 .bottoneSocial svg,
 .bottoneCalendario svg {
   fill: #3f6bca;
 }
-
+aside div p i .fas,
+.fa-tag {
+  position: absolute;
+  right: 14px;
+  bottom: 50px;
+  font-size: 73px;
+}
 @media screen and (min-width: 500px) {
   input {
     display: inline-block;
@@ -370,6 +376,7 @@ aside div {
   border: 1px solid #c3c3c3;
   margin-bottom: 1em;
   padding: 1em;
+  position: relative;
 }
 
 @media screen and (min-width: 1200px) {
